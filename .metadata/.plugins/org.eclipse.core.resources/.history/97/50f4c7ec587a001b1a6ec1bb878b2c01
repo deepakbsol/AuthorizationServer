@@ -1,0 +1,6 @@
+#oracle Data Base Details
+spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
+spring.datasource.url=jdbc:oracle:thin:@192.168.1.123:1521/bsolsup
+spring.datasource.username=RRRS_DEVELOPMENT
+spring.datasource.password=RRRS_DEVELOPMENT
+

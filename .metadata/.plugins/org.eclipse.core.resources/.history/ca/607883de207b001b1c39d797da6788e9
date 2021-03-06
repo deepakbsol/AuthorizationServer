@@ -1,0 +1,17 @@
+package com.rrrs.registerservice;
+
+import org.springframework.stereotype.Service;
+
+import com.rrrs.security.entity.ValidUser;
+import com.rrrs.security.registerdao.RegisterUserAndClientDao;
+
+@Service
+public class RegisterUserAndClientServiceImp implements RegisterUserAndClientService{
+
+	private RegisterUserAndClientDao registerUserAndClientDao;
+	@Override
+	public void saveUser(ValidUser user) {
+		registerUserAndClientDao.saveUser(user);
+	}
+
+}

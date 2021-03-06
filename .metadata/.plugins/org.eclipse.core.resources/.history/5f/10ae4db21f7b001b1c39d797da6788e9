@@ -1,0 +1,8 @@
+package com.rrrs.registerservice;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public interface RegisterUserAndClientService {
+
+}

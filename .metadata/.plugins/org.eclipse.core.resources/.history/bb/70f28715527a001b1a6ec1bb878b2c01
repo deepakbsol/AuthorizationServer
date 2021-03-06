@@ -1,0 +1,24 @@
+package com.rrrs.security.dao;
+
+import javax.persistence.EntityManager;
+
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.rrrs.security.entity.ValidUser;
+
+@Repository
+@Transactional
+public class UserDetailsDaoImp implements UserDetailsDao{
+
+	private EntityManager entityManager;
+	public UserDetailsDaoImp(EntityManager entityManager) {
+		
+	}
+	@Override
+	public ValidUser getValidUser(String username) {
+		
+		return null;
+	}
+
+}

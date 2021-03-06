@@ -1,0 +1,5 @@
+package com.rrrs.config;
+
+public class ResourceServerConfig {
+
+}

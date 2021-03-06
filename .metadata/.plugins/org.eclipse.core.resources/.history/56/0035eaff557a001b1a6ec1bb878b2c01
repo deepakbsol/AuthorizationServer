@@ -1,0 +1,7 @@
+package com.rrrs.security.entity;
+
+import org.springframework.security.oauth2.provider.ClientDetails;
+
+public class ClientDetailsImp implements ClientDetails{
+
+}

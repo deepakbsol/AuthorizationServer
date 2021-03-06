@@ -1,0 +1,14 @@
+package com.rrrs.security.service;
+
+import org.springframework.security.oauth2.provider.ClientDetails;
+import org.springframework.security.oauth2.provider.ClientDetailsService;
+import org.springframework.security.oauth2.provider.ClientRegistrationException;
+
+public class ClientDeatilsServiceImp implements ClientDetailsService {
+
+	@Override
+	public ClientDetails loadClientByClientId(String client) throws ClientRegistrationException {
+		return null;
+	}
+
+}

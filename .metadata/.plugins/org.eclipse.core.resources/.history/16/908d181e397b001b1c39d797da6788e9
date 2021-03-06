@@ -1,0 +1,57 @@
+package com.rrrs.security.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Registered_Client_Dtls")
+public class ValidClient {
+
+	@Id
+	@GeneratedValue(strategy =GenerationType.IDENTITY )
+	@Column(name = "client_id")
+	private int clientId;
+	@Column(name = "client")
+	private String client;
+	@Column(name = "secret")
+	private String secret;
+	@Column(name = "scope")
+	private String scope;
+	@Column(name = "AUTHORIZEDGRANTTYPE")
+	private String AuthorizedGrantType;
+	public int getClientId() {
+		return clientId;
+	}
+	public void setClientId(int clientId) {
+		this.clientId = clientId;
+	}
+	public String getClient() {
+		return client;
+	}
+	public void setClient(String client) {
+		this.client = client;
+	}
+	public String getSecret() {
+		return secret;
+	}
+	public void setSecret(String secret) {
+		this.secret = secret;
+	}
+	public String getScope() {
+		return scope;
+	}
+	public void setScope(String scope) {
+		this.scope = scope;
+	}
+	public String getAuthorizedGrantType() {
+		return AuthorizedGrantType;
+	}
+	public void setAuthorizedGrantType(String authorizedGrantType) {
+		AuthorizedGrantType = authorizedGrantType;
+	}
+	
+}

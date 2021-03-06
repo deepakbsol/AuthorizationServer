@@ -1,0 +1,26 @@
+package com.rrrs.security.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Registered_Client_Dtls")
+public class ValidClient {
+
+	@Id
+	@GeneratedValue(strategy =GenerationType.IDENTITY )
+	@Column(name = "client_id")
+	private int clientId;
+	@Column(name = "client")
+	private String client;
+	@Column(name = "secret")
+	private String secret;
+	@Column(name = "scope")
+	private String scope;
+	@Column(name = "granted_Auth")
+	private String granted
+}

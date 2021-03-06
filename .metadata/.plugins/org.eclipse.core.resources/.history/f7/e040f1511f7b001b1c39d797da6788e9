@@ -1,0 +1,5 @@
+package com.rrrs.dao;
+
+public class RegisterUserAndClientDaoImp implements RegisterUserAndClientDao{
+
+}

@@ -1,0 +1,5 @@
+package com.rrrs.security.service;
+
+public class UserDetailsServiceImp {
+
+}

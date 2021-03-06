@@ -1,0 +1,12 @@
+package com.rrrs.security.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Registered_Client_Dtls")
+public class ValidClient {
+
+	
+	
+}

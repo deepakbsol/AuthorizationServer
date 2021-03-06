@@ -1,0 +1,5 @@
+package com.rrrs.security.entity;
+
+public class ClientDetailsImp {
+
+}

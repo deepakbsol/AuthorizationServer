@@ -1,0 +1,8 @@
+package com.rrrs.security.dao;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class UserDetailsDaoImp {
+
+}

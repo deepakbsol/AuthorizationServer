@@ -1,0 +1,19 @@
+package com.rrrs.security.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Registered_Client_Dtls")
+public class ValidClient {
+
+	@Id
+	@GeneratedValue(strategy =GenerationType.IDENTITY )
+	@Column(name = "client_id")
+	private int clientId;
+	
+}

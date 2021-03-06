@@ -1,0 +1,12 @@
+package com.rrrs.dao;
+
+import org.springframework.stereotype.Repository;
+
+import com.rrrs.security.entity.ValidUser;
+
+@Repository
+public interface RegisterUserAndClientDao {
+
+	void saveUser(ValidUser user);
+
+}

@@ -1,0 +1,5 @@
+package com.rrrs.register;
+
+public class RegisterUserWithoutAuth {
+
+}

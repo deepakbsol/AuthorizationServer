@@ -1,0 +1,5 @@
+package com.rrrs.security.dao;
+
+public interface UserDetailsDao {
+
+}
